@@ -1,8 +1,6 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
-// Starting at the top-left corner of your map and following a slope of right 3
-// and down 1, how many trees would you encounter?
 pub fn count_trees(map: &Vec<String>, dx: usize, dy: usize) -> usize {
     let mut count = 0;
     let mut x = 0;
@@ -31,15 +29,16 @@ pub fn run() {
 
     let map = read_map().expect("invalid input");
 
-    // Starting at the top-left corner of your map and following a slope of right 3 and down 1, how many trees would you encounter?
+    // Starting at the top-left corner of your map and following a slope of right 3 and down 1,
+    // how many trees would you encounter?
     let count = count_trees(&map, 3, 1);
     // Your puzzle answer was 228.
     println!("Part 1. The trees in the way: {}", count);
 
     // --- Part Two ---
 
-    // What do you get if you multiply together the number of trees encountered on each of the listed slopes?
-    // Slopes:
+    // What do you get if you multiply together the number of trees encountered on each of the
+    // listed slopes? Slopes:
     // Right 3, down 1. (This is the slope you already checked.)
     // Right 1, down 1.
     // Right 5, down 1.
