@@ -22,6 +22,7 @@ mod day_21;
 mod day_22;
 mod day_23;
 mod day_24;
+mod day_25;
 
 fn main() {
     day_01::run();
@@ -48,4 +49,5 @@ fn main() {
     day_22::run();
     day_23::run();
     day_24::run();
+    day_25::run();
 }
