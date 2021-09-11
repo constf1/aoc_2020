@@ -18,3 +18,6 @@ To run tests, type in the command line:
 ```
 cargo test
 ```
+
+## Calendar
+[Day 1: Report Repair](./src/day_01.rs)
