@@ -1,4 +1,4 @@
-# Advent of Code 2020 <span style="float:right;font-size:smaller;font-family: 'Source Code Pro', monospace">constf1 <span style="color: #ffff66">50*</span></span>
+# Advent of Code 2020
 
 [Advent of Code](https://adventofcode.com/2020/) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language.
 Let's give [Rust](https://www.rust-lang.org) a try!
